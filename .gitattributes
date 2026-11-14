@@ -1,0 +1,10 @@
+# 批处理文件必须保持 CRLF，否则部分环境下无法执行
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Python 源码统一 LF
+*.py text eol=lf
+
+# 图标按二进制处理
+*.ico binary
+*.exe binary
